@@ -1,0 +1,25 @@
+.bookGrid {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 15px;
+
+}
+.userGrid{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 15px;
+}
+.orderGrid{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 15px;
+}
+.searchDiv
+{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
